@@ -2,7 +2,7 @@ var localVideo;
 var remoteVideo;
 var peerConnection;
 var uuid;
-
+var localStream =null;
 var sender=false;
 
 
