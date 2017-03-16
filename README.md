@@ -1,13 +1,13 @@
 WebRTC Example
 ==============
 
-#### shane tully (shanetully.com)
+####  screen share simple example with video replace 
 
 An 'as simple as it gets' WebRTC example.
 
 See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/) for a detailed walkthrough of the code.
 
-Note: This repo is kept updated. The general ideas are there, but the above blog post may be somewhat out of date with the code in this repo.
+Note: I have used the above blog post and modified this to work with screen sharing as well .  This only works on chrome 
 
 ## Usage
 
@@ -19,6 +19,13 @@ $ node server/server.js
 ```
 
 With the server running, open a recent version of Firefox or Chrome and visit `https://localhost:8443`. Note the HTTPS! There is no redirect from HTTP to HTTPS!
+
+
+
+For screen sharing you need to add a crome plugin 
+
+
+https://chrome.google.com/webstore/detail/screen-capturing/ajhifddimkapgcifgcodmmfdlknahffk   add this plugin . Then collect the extensionid on webrtc 310 no file .
 
 ## TLS
 
