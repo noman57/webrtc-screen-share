@@ -5,7 +5,6 @@ WebRTC Scrrenshare and webcam streaming with  stream replace
 
 An 'as simple as it gets' WebRTC example.
 
-See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/) for a detailed walkthrough of the code.
 
 Note: I have used the above blog post and modified this to work with screen sharing as well .  This only works on chrome 
 
